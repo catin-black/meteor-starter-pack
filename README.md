@@ -15,7 +15,7 @@ imports/
 		lib/
 			routes.js 			# set up all routes in the app
 		utils/
-			functions.js 	   	
+			functions.js
 			helpers.js
 		views/
 			pages/
@@ -49,28 +49,34 @@ npm install mupx -g
 For example if you are using: http://meteor.toys you will be able to use Mongol in your browser. 
 It is a good idea to use: jabbslad:basic-auth and set password when using this deploy version. Use it on your server site code:
 ```
+
 if (process.env.NODE_ENV === "development") {
-    var basicAuth = new HttpBasicAuth("catinblack", "catinblack");
-    basicAuth.protect();
-    METEORTOYSSHELL=true;
+	var basicAuth = new HttpBasicAuth("catinblack", "catinblack");
+	basicAuth.protect();
+	METEORTOYSSHELL=true;
 }
+
 ```
 
 Structure:
 
 ```
+
 devel/
-  mupx.json 						# Meteor Up configuration file
-  settings.json 					# Settings for Meteor's settings API
+	mupx.json 						# Meteor Up configuration file
+	settings.json 					# Settings for Meteor's settings API
+	
 ```
 
 #### Production server
 Structure:
 
 ```
+
 production/
-  mupx.json 						# Meteor Up configuration file
-  settings.json 					# Settings for Meteor's settings API
+	mupx.json 						# Meteor Up configuration file
+	settings.json 					# Settings for Meteor's settings API
+
 ```
 
 ## Packages
