@@ -1,4 +1,10 @@
 ![Cat In Black Meteor](http://res.cloudinary.com/czarny-kod/image/upload/v1467275882/meteor_mfdvco.jpg)
+#Cat In Black
+From the beginning, we have done successfully more than 300 projects for companies from different sectors. We create startups, we precursors and love Lean Startup methodology and Customer Development. We know many of the technologies and know which one will be the most right for you.
+
+More about company: https://catin.black
+We are official Meteor partner: http://catin.black/meteor 
+
 ## Meteor Starter Pack for Apps
 To fully use the module system and ensure that our code only runs when we ask it to, we recommend that all of your application code should be placed inside the imports/ directory. This means that the Meteor build system will only bundle and include that file if it is referenced from another file using an import (also called “lazy evaluation or loading”).
 
