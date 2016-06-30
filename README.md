@@ -49,7 +49,9 @@ lib/
 ```
 ### Deploy
 Using MUPX - https://github.com/arunoda/meteor-up/tree/mupx
+```
 npm install mupx -g
+```
 
 #### Development server
 For example if you are using: http://meteor.toys you will be able to use Mongol in your browser. 
