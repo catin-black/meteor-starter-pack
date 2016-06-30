@@ -2,8 +2,7 @@
 #Cat In Black
 From the beginning, we have done successfully more than 300 projects for companies from different sectors. We create startups, we precursors and love Lean Startup methodology and Customer Development. We know many of the technologies and know which one will be the most right for you.
 
-More about company: https://catin.black
-We are official Meteor partner: http://catin.black/meteor 
+Read more about company: https://catin.black and our Meteor Partnership: http://catin.black/meteor 
 
 ## Meteor Starter Pack for Apps
 To fully use the module system and ensure that our code only runs when we ask it to, we recommend that all of your application code should be placed inside the imports/ directory. This means that the Meteor build system will only bundle and include that file if it is referenced from another file using an import (also called “lazy evaluation or loading”).
@@ -54,13 +53,13 @@ npm install mupx -g
 
 #### Development server
 For example if you are using: http://meteor.toys you will be able to use Mongol in your browser. 
-It is a good idea to use: jabbslad:basic-auth and set password when using this deploy version. Use it on your server site code:
+It is a good idea to use: ```jabbslad:basic-auth``` and set password when using this deploy version. Use it on your server site code:
 ```
 
 if (process.env.NODE_ENV === "development") {
-	var basicAuth = new HttpBasicAuth("catinblack", "catinblack");
+	var basicAuth = new HttpBasicAuth("catinblack-login", "catinblack-password");
 	basicAuth.protect();
-	METEORTOYSSHELL=true;
+	METEORTOYSSHELL = true;
 }
 
 ```
