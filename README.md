@@ -47,15 +47,6 @@ lib/
 	main.js 					# lib entry point, imports all lib code
 
 ```
-### Deploy
-Using MUPX - https://github.com/arunoda/meteor-up/tree/mupx
-```
-npm install mupx -g
-```
-
-Meteor 1.4 deplyment problem - https://github.com/meteor/meteor/issues/7475 
-or use: https://github.com/kadirahq/meteor-up with abernix:meteord:base docker image
-
 #### Development server
 For example if you are using: http://meteor.toys you will be able to use Mongol in your browser. 
 It is a good idea to use: ```jabbslad:basic-auth``` and set password when using this deploy version. Use it on your server site code:
@@ -144,4 +135,6 @@ Starts up the test driver package (see below).
 It loads test files matching *.app-test[s].* and *.app-spec[s].*.
 It does eagerly load our application code as Meteor normally would.
 Sets the Meteor.isAppTest flag to be true (instead of the Meteor.isTest flag).
+
+
 
